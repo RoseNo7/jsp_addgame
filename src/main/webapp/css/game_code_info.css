@@ -1,0 +1,94 @@
+.header {
+    width: 100%;
+    height: 150px;
+}
+
+.container {
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.layout {
+    width: 380px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.top {
+    margin-left: 10px;
+    padding: 15px;
+    height: 20px;
+}
+
+.content {
+    height: 430px;
+}
+
+.column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.column .number {
+    width: 30px;
+    margin-left: 35px;
+}
+
+.column .code {
+    width: 115px;
+    margin-left: 10px;
+}
+
+.column .date {
+    width: 60px;
+    margin-left: 13px;
+
+}
+
+.column .select-btn {
+    width: 30px;
+}
+
+.game-list {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 15px;
+    margin-bottom: 15px;
+}
+
+
+.item {
+    font-size: 12px;
+    height: 15px;
+    margin: 0 12px;
+    padding: 0
+}
+
+.content .result {
+    height: 10px;
+    border: 1px dashed black;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-bottom .confirm-btn {
+    width: 80px;
+    height: 30px;
+    margin: 15px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+    color: black;
+    background: white;
+}
