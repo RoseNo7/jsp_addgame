@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="addgame:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>addgame</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="addgame-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="addgame:war exploded" />
+    </root>
+  </artifact>
+</component>

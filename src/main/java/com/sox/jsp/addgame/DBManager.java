@@ -12,8 +12,8 @@ public class DBManager {
        버전 8.0 미만 : "com.mysql.jdbc.Driver" 사용     */
     final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     final String URL = "jdbc:mysql://localhost/game?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8";
-    final String USERNAME = "soxuser";
-    final String PASSWORD = "sox123";
+    final String USERNAME = "root";
+    final String PASSWORD = "1234";
 
     static Connection con = null;
     static PreparedStatement pstate = null;
